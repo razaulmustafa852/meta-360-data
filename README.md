@@ -28,15 +28,6 @@ Each row represents an approximately one-second measurement. The `Eid_num` colum
 | `SecondCell_SNR` | Signal-to-Noise Ratio of the secondary cell or LTE anchor cell, measured in dB. |
 | `Eid_num` | Unique identifier of an experimental streaming session. Rows with the same `Eid_num` belong to the same experiment. |
 
-## Notes
-
-- Measurements were recorded at approximately one-second intervals.
-- The original row order represents the temporal order of measurements within each experiment.
-- The dataset does not contain an explicit timestamp column.
-- Temporal and rolling-window features should be calculated separately for each `Eid_num`.
-- Missing secondary-cell values indicate that secondary-cell information was not reported for that measurement.
-- `EVENT` represents a cellular-network event and should not be interpreted as a video QoE-degradation label.
-
 
 ## Videos Used for Dataset Collection
 
