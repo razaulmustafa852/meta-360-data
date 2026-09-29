@@ -4,7 +4,7 @@ This dataset contains synchronized application-level and network-level measureme
 
 The 360° videos were played on a **Meta Quest 3** headset connected through Wi-Fi to a **Samsung Galaxy S25+ 5G hotspot**. Application-level video information was collected from the YouTube player, while cellular radio and network measurements were recorded on the smartphone.
 
-Each row represents an approximately one-second measurement. The `Eid_num` column identifies the experimental session to which the measurement belongs.
+Each row represents an approximately one-second measurement. The `Eid` and `id`  column identifies the experimental session to which the measurement belongs.
 
 ## Dataset Columns
 
